@@ -101,13 +101,6 @@ body{
 }
 
 .comprar{
-    display: flex;
-    height: 76px;
-    justify-content: center;
-    align-items: center;
-    align-items: baseline;
-
-    
 }
 
 .carrinho{
@@ -117,16 +110,23 @@ body{
 .botao{
     background-color: var(--Darkcyan);
     color: white;
-    font-family: 'Montserrat';
-    height: 55px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 0.5em;
 }
 
 .addcart{
     font-family: 'Montserrat';
     font-size: 14px;
+    width: 300px;
+    height: 55px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -1em;
+}
+
+.addcart:hover{
+    color:var(--Cream);
+    transition: 0.5s;
 }
